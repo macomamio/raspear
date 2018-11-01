@@ -6,5 +6,4 @@ WORKDIR /app/raspear
 RUN pwd && env
 RUN apk --update add bash ruby nginx
 
-
 CMD ["nginx", "-g", "daemon off;"]
